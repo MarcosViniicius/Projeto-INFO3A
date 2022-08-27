@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página</title>
+    <title>Loja do Dagoberto</title>
 </head>
 <style>
     body {
@@ -12,17 +12,17 @@
         display: block;
     }
     .cabecalho {
-        background-color: rgb(62, 60, 60);
+        background-color: rgb(128, 128, 130);
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
     #logomarca {
         height: 100px;
-        width: 150px;
+        width: 100px;
     }
     
     h1 {
@@ -30,6 +30,7 @@
         font-size: 50px; 
         margin-top: 45px;
         height: 70px;
+        color: rgb(38, 36, 36);
     }
 
     .produtos {
@@ -37,32 +38,31 @@
         display: flex;
         margin: auto;
         overflow: hidden;
-        max-width: 1021px; 
+        max-width: 1024px; 
         height: 100%;
     }
 
     .produto {
-        flex: 1 1 100px;
+        flex: 1 1 300px;
         margin: 10px;
         flex-wrap: wrap;
         background-color: rgb(250, 250, 250);
-        height: 100%;
-        padding: 24px;
+        padding: 28px;
         box-shadow: rgb(0 0 0 / 14%) 0px 6px 10px;
         border-radius: 10px;
     }
 
     .produtos img {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        mix-blend-mode: multiply;
+        display: flex;
+        float: left;
+        padding: 5px;
+        margin: 0px 10px 10px 0;
+        max-width: 186px;
     }
 
     #nome_produto {
         position: relative;
         top: 10px;
-        text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         text-transform: lowercase;
         font-size: 14px;
@@ -75,18 +75,25 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    #cabecalho {
+        padding: 20px;
+        text-align: center;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 700px;
+    }
 
 
 </style>
 <body>
     <header class="cabecalho">
-            <h1>Marcos Info</h1>
-            <img id="logomarca" src="macaco-manduri.jpg">
+            <h1>Dagoberto</h1>
+            <img id="logomarca" src="img/icone.png">
     </header>
     <section class="produtos">
         <div class="produto">
             <img src="img/a52s 5g.jpg">
-            <p id="nome_produto">Celular Samsung Galaxy A52s 5G Branco</p>
+            <p id="nome_produto">Smartphone Samsung Galaxy A52s 5G - Branco</p>
             <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
@@ -104,73 +111,107 @@
 
         <div class="produto">
             <img src="img/s20 fe.png">
-            <p id="nome_produto">Smartphone Samsung Galaxy S20 FE 5G 128GB Snapdragon Tela 6.5'' Dual Chip 6GB RAM Câmera Tripla + Selfie 32MP - Azul Marinho</p>
+            <p id="nome_produto">Smartphone Samsung Galaxy S20 FE 5G - Azul Marinho</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 2.459,93</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
             <img src="img/m51.png">
-            <p id="nome_produto">Smartphone Samsung Galaxy M52 5G 128GB 5G Wi-Fi Tela 6.7'' Dual Chip 6GB RAM Câmera Tripla + Selfie 32MP - Preto</p>
+            <p id="nome_produto">Smartphone Samsung Galaxy M52 5G - Preto</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 1.599,00</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
             <img src="img/s22.png">
-            <p id="nome_produto">Smartphone Samsung Galaxy S22 Ultra 256GB 5G Wi-Fi Tela 6.8'' Dual Chip 12GB RAM Câmera Quádrupla + Selfie 40MP - Vinho</p>
+            <p id="nome_produto">Smartphone Samsung Galaxy S22 Ultra - Vinho</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 9.498,89</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
             <img src="img/iphone13.png">
-            <p id="nome_produto">Apple iPhone 13 Pro 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP + Sensor LiDAR - Grafite</p>
+            <p id="nome_produto">Apple iPhone 13 Pro 5G - Grafite</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 8.489,00</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
             <img src="img/iphone12.png">
-            <p id="nome_produto">iPhone 12 Apple 64GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Branco</p>
+            <p id="nome_produto">iPhone 12 Apple 5G - Branco</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 4.599,00</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
             <img src="img/iphone11.png">
-            <p id="nome_produto">iPhone 11 Apple 128GB iOS 4G Wi-Fi Tela 6,1'' Câmera 12MP - Branco</p>
+            <p id="nome_produto">iPhone 11 Apple 4G - Branco</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 4.199,00</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
             <img src="img/iphonex.png">
-            <p id="nome_produto">Iphone X 64gb iOs 4G Wi-Fi Tela 5.8'' 12mp - Prata</p>
+            <p id="nome_produto">Iphone X 4G - Prata</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
             <p id="preco">R$ 2.199,00</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
-            <img src="img/Alienware x17 R2.png">
-            <p id="nome_produto">Notebook Gamer Alienware x17 R2</p>
-            <p id="preco">R$ 32.000,00</p>
+            <img src="img/xiaomi mi 12.png">
+            <p id="nome_produto">Smartphone Xiaomi 12 5g - Branco</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <p id="preco">R$ 4.969,00</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
         <div class="produto">
-            <img src="img/Alienware x17 R2.png">
-            <p id="nome_produto">Notebook Gamer Alienware x17 R2</p>
-            <p id="preco">R$ 32.000,00</p>
+            <img src="img/xiaomi mi 11.png">
+            <p id="nome_produto">Xiaomi Mi 11x 5g - branco</p>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <svg height="18" viewBox="0 0 50 50" width="18"><polygon fill="#f2c832" points="25,3.553 30.695,18.321 46.5,19.173 34.214,29.152 38.287,44.447 25,35.848 11.712,44.447 15.786,29.152 3.5,19.173 19.305,18.321 "></polygon></svg>
+            <p id="preco">R$ 3.870</p>
             <input type="button" value="Adicionar ao Carrinho">
         </div>
-        <div class="produto">
-            <img src="img/Alienware x17 R2.png">
-            <p id="nome_produto">Notebook Gamer Alienware x17 R2</p>
-            <p id="preco">R$ 32.000,00</p>
-            <input type="button" value="Adicionar ao Carrinho">
-        </div>
-        <div class="produto">
-            <img src="img/Alienware x17 R2.png">
-            <p id="nome_produto">Notebook Gamer Alienware x17 R2</p>
-            <p id="preco">R$ 32.000,00</p>
-            <input type="button" value="Adicionar ao Carrinho">
-        </div>
-
     </section>
-
+    <footer>
+        <p id="cabecalho">Loja do Dagoberto</p>
+    </footer>
 
 </body>
 </html>
